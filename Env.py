@@ -165,17 +165,4 @@ class CabDriver():
         
         return rewards, next_state, total_time
 
-    def state_set_loc(self, state, loc):
-        state[0] = loc
-
-    def state_set_time(self, state, time):
-        state[1] = time
-
-    def state_set_day(self, state, day):
-        state[2] = day
-
-    def action_set_pickup(self, action, pickup):
-        action[0] = pickup
-
-    def action_set_drop(self, action, drop):
-        action[1] = drop
+    
