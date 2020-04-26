@@ -5,6 +5,7 @@ The goal of your project is to build an RL-based algorithm which can help cab dr
  
 
 The Need for Choosing the 'Right' Requests:
+
 Most drivers get a healthy number of ride requests from customers throughout the day. But with the recent hikes in electricity prices (all cabs are electric), many drivers complain that although their revenues are gradually increasing, their profits are almost flat. Thus, it is important that drivers choose the 'right' rides, i.e. choose the rides which are likely to maximise the total profit earned by the driver that day. 
 
  
@@ -17,5 +18,6 @@ There are some basic rules governing the ride-allocation system. If the cab is a
 
  
 
-Markov Decision Process
+Markov Decision Process:
+
 Taking long-term profit as the goal, you propose a method based on reinforcement learning to optimize taxi driving strategies for profit maximization. This optimization problem is formulated as a Markov Decision Process.
